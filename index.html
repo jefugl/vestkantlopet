@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
     
-    <style>html, body {width: 750.0px;height: 550.0px;margin: 0;padding: 0;}</style>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
@@ -24,10 +23,10 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e285be075a4f45bc02928b299c6dec3d {
+                #map_e3d1ffa45b48c7048079233f52cc1b4d {
                     position: relative;
-                    width: 750.0px;
-                    height: 550.0px;
+                    width: 100.0%;
+                    height: 100.0%;
                     left: 0.0%;
                     top: 0.0%;
                 }
@@ -39,13 +38,13 @@
              <h3 align="left" style="font-size:22px"><b>Vestkantløpet 2023</b></h3>
              
     
-            <div class="folium-map" id="map_e285be075a4f45bc02928b299c6dec3d" ></div>
+            <div class="folium-map" id="map_e3d1ffa45b48c7048079233f52cc1b4d" ></div>
         
 </body>
 <script>    
     
-            var map_e285be075a4f45bc02928b299c6dec3d = L.map(
-                "map_e285be075a4f45bc02928b299c6dec3d",
+            var map_e3d1ffa45b48c7048079233f52cc1b4d = L.map(
+                "map_e3d1ffa45b48c7048079233f52cc1b4d",
                 {
                     center: [59.9168, 10.7128],
                     crs: L.CRS.EPSG3857,
@@ -59,591 +58,591 @@
 
         
     
-            var tile_layer_243b66417b748440799996be38b0cad4 = L.tileLayer(
+            var tile_layer_905b55a0b018570768a63bd4c5514bbe = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 10, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var marker_81b3374fa8d12b5cf9e79654bbd518a6 = L.marker(
+            var marker_6ae0e5de051c8273228865ed74dc67d1 = L.marker(
                 [59.91469432548203, 10.71931459152586],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_d146aa13a057f77421cf29b99693194c = L.AwesomeMarkers.icon(
+            var icon_421d8d6bb139f3dc7751054a9b2465d9 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_81b3374fa8d12b5cf9e79654bbd518a6.setIcon(icon_d146aa13a057f77421cf29b99693194c);
+            marker_6ae0e5de051c8273228865ed74dc67d1.setIcon(icon_421d8d6bb139f3dc7751054a9b2465d9);
         
     
-        var popup_680c975d32a441b65b73d3a989a0e3eb = L.popup({"maxWidth": "100%"});
+        var popup_7dfe61c34725e5a5bdc0e72ce14cdc16 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9ebcb2f1ac4e0ce4d704d22b41b369b2 = $(`<div id="html_9ebcb2f1ac4e0ce4d704d22b41b369b2" style="width: 100.0%; height: 100.0%;">Henrik Ibsens gate 90, 0255 Oslo</div>`)[0];
-            popup_680c975d32a441b65b73d3a989a0e3eb.setContent(html_9ebcb2f1ac4e0ce4d704d22b41b369b2);
+            var html_6fd4fee462f67e2f33c6b17e3ca1a146 = $(`<div id="html_6fd4fee462f67e2f33c6b17e3ca1a146" style="width: 100.0%; height: 100.0%;">Henrik Ibsens gate 90, 0255 Oslo</div>`)[0];
+            popup_7dfe61c34725e5a5bdc0e72ce14cdc16.setContent(html_6fd4fee462f67e2f33c6b17e3ca1a146);
         
 
-        marker_81b3374fa8d12b5cf9e79654bbd518a6.bindPopup(popup_680c975d32a441b65b73d3a989a0e3eb)
+        marker_6ae0e5de051c8273228865ed74dc67d1.bindPopup(popup_7dfe61c34725e5a5bdc0e72ce14cdc16)
         ;
 
         
     
     
-            var marker_c3bb1ca182f70cd79c0f4ac36cc62701 = L.marker(
+            var marker_d57de17f2648c718d3cf7bc50099db8d = L.marker(
                 [59.91527248185749, 10.71710445123165],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_f1d84c0673f652239e66f26818b6cd6b = L.AwesomeMarkers.icon(
+            var icon_c3c6078e7db059b7b9fc1f4c776bb817 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_c3bb1ca182f70cd79c0f4ac36cc62701.setIcon(icon_f1d84c0673f652239e66f26818b6cd6b);
+            marker_d57de17f2648c718d3cf7bc50099db8d.setIcon(icon_c3c6078e7db059b7b9fc1f4c776bb817);
         
     
-        var popup_a1552db1c1fb3339ca04db141714d762 = L.popup({"maxWidth": "100%"});
+        var popup_ab1018ad92ce33e6b5c24e6883dba530 = L.popup({"maxWidth": "100%"});
 
         
-            var html_bd067625b3ecf3fd55fa2f7ba3e71be0 = $(`<div id="html_bd067625b3ecf3fd55fa2f7ba3e71be0" style="width: 100.0%; height: 100.0%;">Frognerveien 2, 0257 Oslo</div>`)[0];
-            popup_a1552db1c1fb3339ca04db141714d762.setContent(html_bd067625b3ecf3fd55fa2f7ba3e71be0);
+            var html_78e7882707af192489dcc0a8529e2076 = $(`<div id="html_78e7882707af192489dcc0a8529e2076" style="width: 100.0%; height: 100.0%;">Frognerveien 2, 0257 Oslo</div>`)[0];
+            popup_ab1018ad92ce33e6b5c24e6883dba530.setContent(html_78e7882707af192489dcc0a8529e2076);
         
 
-        marker_c3bb1ca182f70cd79c0f4ac36cc62701.bindPopup(popup_a1552db1c1fb3339ca04db141714d762)
+        marker_d57de17f2648c718d3cf7bc50099db8d.bindPopup(popup_ab1018ad92ce33e6b5c24e6883dba530)
         ;
 
         
     
     
-            var marker_23b3a0f3b3e65db74954c783cf951672 = L.marker(
+            var marker_568613ea40d80e72e817da0cb6b99de6 = L.marker(
                 [59.91598776839145, 10.716144220416322],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_f67af8a15ab205a14c77ed995699b3e7 = L.AwesomeMarkers.icon(
+            var icon_56592694f579c457aa98b6b26e0635f1 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_23b3a0f3b3e65db74954c783cf951672.setIcon(icon_f67af8a15ab205a14c77ed995699b3e7);
+            marker_568613ea40d80e72e817da0cb6b99de6.setIcon(icon_56592694f579c457aa98b6b26e0635f1);
         
     
-        var popup_0c471a4aab9d00224fe0bf4b9d7627b5 = L.popup({"maxWidth": "100%"});
+        var popup_1620939560503701da2cbb94e6a20f83 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7b6d13b3eb05b340337864940d0401aa = $(`<div id="html_7b6d13b3eb05b340337864940d0401aa" style="width: 100.0%; height: 100.0%;">Skovveien 3, 0257 Oslo</div>`)[0];
-            popup_0c471a4aab9d00224fe0bf4b9d7627b5.setContent(html_7b6d13b3eb05b340337864940d0401aa);
+            var html_8aac4d65e015e08fffe0c640e177a247 = $(`<div id="html_8aac4d65e015e08fffe0c640e177a247" style="width: 100.0%; height: 100.0%;">Skovveien 3, 0257 Oslo</div>`)[0];
+            popup_1620939560503701da2cbb94e6a20f83.setContent(html_8aac4d65e015e08fffe0c640e177a247);
         
 
-        marker_23b3a0f3b3e65db74954c783cf951672.bindPopup(popup_0c471a4aab9d00224fe0bf4b9d7627b5)
+        marker_568613ea40d80e72e817da0cb6b99de6.bindPopup(popup_1620939560503701da2cbb94e6a20f83)
         ;
 
         
     
     
-            var marker_9f7196d2333ca4a154b9cc32d08c13c0 = L.marker(
+            var marker_eab45399b8925a66af5b3d232fe1d392 = L.marker(
                 [59.916645064308504, 10.713408421737306],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_34837ec0e1ea712af484c88ad642153d = L.AwesomeMarkers.icon(
+            var icon_0032b1bc17a626e51cd33f262c07b42a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_9f7196d2333ca4a154b9cc32d08c13c0.setIcon(icon_34837ec0e1ea712af484c88ad642153d);
+            marker_eab45399b8925a66af5b3d232fe1d392.setIcon(icon_0032b1bc17a626e51cd33f262c07b42a);
         
     
-        var popup_78d5e419da6d9bce77f8e54c048822ed = L.popup({"maxWidth": "100%"});
+        var popup_0230914062a612fcfe8ec35f5407ea4d = L.popup({"maxWidth": "100%"});
 
         
-            var html_74c86db2f5859e7f0c46200db1e71d7c = $(`<div id="html_74c86db2f5859e7f0c46200db1e71d7c" style="width: 100.0%; height: 100.0%;">Frognerveien 12B, 0263 Oslo</div>`)[0];
-            popup_78d5e419da6d9bce77f8e54c048822ed.setContent(html_74c86db2f5859e7f0c46200db1e71d7c);
+            var html_e88671cbc4bfa29126d738c881e3a85b = $(`<div id="html_e88671cbc4bfa29126d738c881e3a85b" style="width: 100.0%; height: 100.0%;">Frognerveien 12B, 0263 Oslo</div>`)[0];
+            popup_0230914062a612fcfe8ec35f5407ea4d.setContent(html_e88671cbc4bfa29126d738c881e3a85b);
         
 
-        marker_9f7196d2333ca4a154b9cc32d08c13c0.bindPopup(popup_78d5e419da6d9bce77f8e54c048822ed)
+        marker_eab45399b8925a66af5b3d232fe1d392.bindPopup(popup_0230914062a612fcfe8ec35f5407ea4d)
         ;
 
         
     
     
-            var marker_bf2013b3dcc0e49888ff2b279de3feb4 = L.marker(
+            var marker_d1b98c4a23710bed3412c6d4fa62242e = L.marker(
                 [59.917972680478975, 10.71835422545415],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_bd90e59933f4c40caab1ef435bc01030 = L.AwesomeMarkers.icon(
+            var icon_1e37f969ce879d8cf74243e53e900d33 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_bf2013b3dcc0e49888ff2b279de3feb4.setIcon(icon_bd90e59933f4c40caab1ef435bc01030);
+            marker_d1b98c4a23710bed3412c6d4fa62242e.setIcon(icon_1e37f969ce879d8cf74243e53e900d33);
         
     
-        var popup_ba48395cf00477256e016783cfe82cf6 = L.popup({"maxWidth": "100%"});
+        var popup_c1f39e8a4005b3200b90096c32830e5d = L.popup({"maxWidth": "100%"});
 
         
-            var html_07c538eed22d25346d1fa4bb7391d9bc = $(`<div id="html_07c538eed22d25346d1fa4bb7391d9bc" style="width: 100.0%; height: 100.0%;">Skovveien 15, 0257 Oslo</div>`)[0];
-            popup_ba48395cf00477256e016783cfe82cf6.setContent(html_07c538eed22d25346d1fa4bb7391d9bc);
+            var html_68393a7d1f7f2e81d47520933a667c52 = $(`<div id="html_68393a7d1f7f2e81d47520933a667c52" style="width: 100.0%; height: 100.0%;">Skovveien 15, 0257 Oslo</div>`)[0];
+            popup_c1f39e8a4005b3200b90096c32830e5d.setContent(html_68393a7d1f7f2e81d47520933a667c52);
         
 
-        marker_bf2013b3dcc0e49888ff2b279de3feb4.bindPopup(popup_ba48395cf00477256e016783cfe82cf6)
+        marker_d1b98c4a23710bed3412c6d4fa62242e.bindPopup(popup_c1f39e8a4005b3200b90096c32830e5d)
         ;
 
         
     
     
-            var marker_05b999a9ed88abe6f5e9e22ce3a9a127 = L.marker(
+            var marker_68ec19412422df9714e99b6abb9b9aa7 = L.marker(
                 [59.918622142469445, 10.710102890982766],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_4742c84b8973fe1e6d13ecf0343e5f72 = L.AwesomeMarkers.icon(
+            var icon_39d9ea9b4a59692ac2eb15d60f5738a6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_05b999a9ed88abe6f5e9e22ce3a9a127.setIcon(icon_4742c84b8973fe1e6d13ecf0343e5f72);
+            marker_68ec19412422df9714e99b6abb9b9aa7.setIcon(icon_39d9ea9b4a59692ac2eb15d60f5738a6);
         
     
-        var popup_ac6ef27602568d42e32b6b7f211d2679 = L.popup({"maxWidth": "100%"});
+        var popup_1b9f26c29e5a688ebc4864a71cbeeda5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_6bff203a6bb59347edc0286d73ebf1db = $(`<div id="html_6bff203a6bb59347edc0286d73ebf1db" style="width: 100.0%; height: 100.0%;">Frognerveien 30, 0263 Oslo</div>`)[0];
-            popup_ac6ef27602568d42e32b6b7f211d2679.setContent(html_6bff203a6bb59347edc0286d73ebf1db);
+            var html_62c0e2843804c63769717334e63fda53 = $(`<div id="html_62c0e2843804c63769717334e63fda53" style="width: 100.0%; height: 100.0%;">Frognerveien 30, 0263 Oslo</div>`)[0];
+            popup_1b9f26c29e5a688ebc4864a71cbeeda5.setContent(html_62c0e2843804c63769717334e63fda53);
         
 
-        marker_05b999a9ed88abe6f5e9e22ce3a9a127.bindPopup(popup_ac6ef27602568d42e32b6b7f211d2679)
+        marker_68ec19412422df9714e99b6abb9b9aa7.bindPopup(popup_1b9f26c29e5a688ebc4864a71cbeeda5)
         ;
 
         
     
     
-            var marker_d1b82a5c3766d9d13794129eb6f1153a = L.marker(
+            var marker_e77809630202dba87ce018601bb3669a = L.marker(
                 [59.916860875031574, 10.714871341826488],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_dd5a64a85a36252a480f864d9e0f2679 = L.AwesomeMarkers.icon(
+            var icon_ef001cb6bb5aaea7110656704ccee5e2 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_d1b82a5c3766d9d13794129eb6f1153a.setIcon(icon_dd5a64a85a36252a480f864d9e0f2679);
+            marker_e77809630202dba87ce018601bb3669a.setIcon(icon_ef001cb6bb5aaea7110656704ccee5e2);
         
     
-        var popup_79dc648c463cdfc380d68a45118ed869 = L.popup({"maxWidth": "100%"});
+        var popup_ac615718147167cc9556b2aba1fdabf9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ef791f8faa529eddd8bb90862d4d89f6 = $(`<div id="html_ef791f8faa529eddd8bb90862d4d89f6" style="width: 100.0%; height: 100.0%;">Niels Juels gate 31, 0257 Oslo</div>`)[0];
-            popup_79dc648c463cdfc380d68a45118ed869.setContent(html_ef791f8faa529eddd8bb90862d4d89f6);
+            var html_9a16f0923a7210e80452d33bf99a8bd7 = $(`<div id="html_9a16f0923a7210e80452d33bf99a8bd7" style="width: 100.0%; height: 100.0%;">Niels Juels gate 31, 0257 Oslo</div>`)[0];
+            popup_ac615718147167cc9556b2aba1fdabf9.setContent(html_9a16f0923a7210e80452d33bf99a8bd7);
         
 
-        marker_d1b82a5c3766d9d13794129eb6f1153a.bindPopup(popup_79dc648c463cdfc380d68a45118ed869)
+        marker_e77809630202dba87ce018601bb3669a.bindPopup(popup_ac615718147167cc9556b2aba1fdabf9)
         ;
 
         
     
     
-            var marker_e610f4ad6f3f11e1df092b4735e56cde = L.marker(
+            var marker_932ba61ebc474b4526fcf923b1b93f78 = L.marker(
                 [59.91652744388927, 10.71668451517464],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_4a7367f6d43e130a218a20be8a2d9dff = L.AwesomeMarkers.icon(
+            var icon_8b2d554ad46705d853e696053eb9bc99 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_e610f4ad6f3f11e1df092b4735e56cde.setIcon(icon_4a7367f6d43e130a218a20be8a2d9dff);
+            marker_932ba61ebc474b4526fcf923b1b93f78.setIcon(icon_8b2d554ad46705d853e696053eb9bc99);
         
     
-        var popup_6a420d759a99ca7cd2bc38c2fa7829b7 = L.popup({"maxWidth": "100%"});
+        var popup_16e337f5a3f2bb0c511a05634ca7d726 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3fd8b58f0a0739a2acc2736d0be89d3d = $(`<div id="html_3fd8b58f0a0739a2acc2736d0be89d3d" style="width: 100.0%; height: 100.0%;">Behrens gate 2, 0257 Oslo</div>`)[0];
-            popup_6a420d759a99ca7cd2bc38c2fa7829b7.setContent(html_3fd8b58f0a0739a2acc2736d0be89d3d);
+            var html_eaadc60fb9a8a2d9a0089048047aa98a = $(`<div id="html_eaadc60fb9a8a2d9a0089048047aa98a" style="width: 100.0%; height: 100.0%;">Behrens gate 2, 0257 Oslo</div>`)[0];
+            popup_16e337f5a3f2bb0c511a05634ca7d726.setContent(html_eaadc60fb9a8a2d9a0089048047aa98a);
         
 
-        marker_e610f4ad6f3f11e1df092b4735e56cde.bindPopup(popup_6a420d759a99ca7cd2bc38c2fa7829b7)
+        marker_932ba61ebc474b4526fcf923b1b93f78.bindPopup(popup_16e337f5a3f2bb0c511a05634ca7d726)
         ;
 
         
     
     
-            var marker_7d2961d17a298ca6da5ba2110557e6eb = L.marker(
+            var marker_d5d6fa1bfa3e0ecd5a2a762d6a0a7f50 = L.marker(
                 [59.91843519304288, 10.705339102800453],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_e83455dd3021e7bd07e758658cfc6f1f = L.AwesomeMarkers.icon(
+            var icon_0c75618c2443df3fcb85d281cc16b1e3 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_7d2961d17a298ca6da5ba2110557e6eb.setIcon(icon_e83455dd3021e7bd07e758658cfc6f1f);
+            marker_d5d6fa1bfa3e0ecd5a2a762d6a0a7f50.setIcon(icon_0c75618c2443df3fcb85d281cc16b1e3);
         
     
-        var popup_26e5fbd7a88eb9d763ddd43a65b60df6 = L.popup({"maxWidth": "100%"});
+        var popup_591cc92c5cabf13752420cc401ac7b5a = L.popup({"maxWidth": "100%"});
 
         
-            var html_f5c1801a807962f441d71e8052a2b12a = $(`<div id="html_f5c1801a807962f441d71e8052a2b12a" style="width: 100.0%; height: 100.0%;">Bygdøy allé 59, 0265 Oslo</div>`)[0];
-            popup_26e5fbd7a88eb9d763ddd43a65b60df6.setContent(html_f5c1801a807962f441d71e8052a2b12a);
+            var html_89362ca1d4a9e7f0269dd5b88cebfe76 = $(`<div id="html_89362ca1d4a9e7f0269dd5b88cebfe76" style="width: 100.0%; height: 100.0%;">Bygdøy allé 59, 0265 Oslo</div>`)[0];
+            popup_591cc92c5cabf13752420cc401ac7b5a.setContent(html_89362ca1d4a9e7f0269dd5b88cebfe76);
         
 
-        marker_7d2961d17a298ca6da5ba2110557e6eb.bindPopup(popup_26e5fbd7a88eb9d763ddd43a65b60df6)
+        marker_d5d6fa1bfa3e0ecd5a2a762d6a0a7f50.bindPopup(popup_591cc92c5cabf13752420cc401ac7b5a)
         ;
 
         
     
     
-            var marker_f08e085be26de4c238ec1e7fbd05647d = L.marker(
+            var marker_bd9bc1e39e94298c9c04e93bd44463c3 = L.marker(
                 [59.91902269489396, 10.705907731109399],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_9c5ba5407e0ea0050db7b65d8eed2169 = L.AwesomeMarkers.icon(
+            var icon_8f0eaf9e75507bd8e7df8ecb64fc70e6 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_f08e085be26de4c238ec1e7fbd05647d.setIcon(icon_9c5ba5407e0ea0050db7b65d8eed2169);
+            marker_bd9bc1e39e94298c9c04e93bd44463c3.setIcon(icon_8f0eaf9e75507bd8e7df8ecb64fc70e6);
         
     
-        var popup_5ea997820b7d4ae8ab548782249db8b6 = L.popup({"maxWidth": "100%"});
+        var popup_4e62ba76c8ab1b15df9fc96af924a7e1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b4833965b84297694e3785c176c6f7b9 = $(`<div id="html_b4833965b84297694e3785c176c6f7b9" style="width: 100.0%; height: 100.0%;">Elisenbergveien 22, 0265 Oslo</div>`)[0];
-            popup_5ea997820b7d4ae8ab548782249db8b6.setContent(html_b4833965b84297694e3785c176c6f7b9);
+            var html_176d7f0896ba99a5d10c7effcb9c1eb8 = $(`<div id="html_176d7f0896ba99a5d10c7effcb9c1eb8" style="width: 100.0%; height: 100.0%;">Elisenbergveien 22, 0265 Oslo</div>`)[0];
+            popup_4e62ba76c8ab1b15df9fc96af924a7e1.setContent(html_176d7f0896ba99a5d10c7effcb9c1eb8);
         
 
-        marker_f08e085be26de4c238ec1e7fbd05647d.bindPopup(popup_5ea997820b7d4ae8ab548782249db8b6)
+        marker_bd9bc1e39e94298c9c04e93bd44463c3.bindPopup(popup_4e62ba76c8ab1b15df9fc96af924a7e1)
         ;
 
         
     
     
-            var marker_144f917bdbbfe792be20ba86bb71917b = L.marker(
+            var marker_0a000fc0a898e6c1d9476be93ad3e8b4 = L.marker(
                 [59.91755737421656, 10.711509462397009],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var icon_202af08dec61c8670552ccf758390526 = L.AwesomeMarkers.icon(
+            var icon_acbfed5d532e489d1bdf42e9fc231a1a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "beer", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_144f917bdbbfe792be20ba86bb71917b.setIcon(icon_202af08dec61c8670552ccf758390526);
+            marker_0a000fc0a898e6c1d9476be93ad3e8b4.setIcon(icon_acbfed5d532e489d1bdf42e9fc231a1a);
         
     
-        var popup_d33a62d9c12e23c41cea9678380e0c9d = L.popup({"maxWidth": "100%"});
+        var popup_89973acb6e8bc888391f8fdffa19e644 = L.popup({"maxWidth": "100%"});
 
         
-            var html_17030dafe3e39afc75c79eb761cfa38d = $(`<div id="html_17030dafe3e39afc75c79eb761cfa38d" style="width: 100.0%; height: 100.0%;">Gabels gate 47, 0262 Oslo</div>`)[0];
-            popup_d33a62d9c12e23c41cea9678380e0c9d.setContent(html_17030dafe3e39afc75c79eb761cfa38d);
+            var html_48c2cae7bc80dc5a757659447d9189fb = $(`<div id="html_48c2cae7bc80dc5a757659447d9189fb" style="width: 100.0%; height: 100.0%;">Gabels gate 47, 0262 Oslo</div>`)[0];
+            popup_89973acb6e8bc888391f8fdffa19e644.setContent(html_48c2cae7bc80dc5a757659447d9189fb);
         
 
-        marker_144f917bdbbfe792be20ba86bb71917b.bindPopup(popup_d33a62d9c12e23c41cea9678380e0c9d)
+        marker_0a000fc0a898e6c1d9476be93ad3e8b4.bindPopup(popup_89973acb6e8bc888391f8fdffa19e644)
         ;
 
         
     
     
-            var marker_a0686a0a61d418dafd95f0e9965a553d = L.marker(
+            var marker_fb198b897f1f076b9d3ce14a3cfeea77 = L.marker(
                 [59.91469432548203, 10.71931459152586],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_9d057ec77e2d2bd4d27846f2b5618b03 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e1.Sumo Restaurant\u003c/div\u003e"});
-            marker_a0686a0a61d418dafd95f0e9965a553d.setIcon(div_icon_9d057ec77e2d2bd4d27846f2b5618b03);
+            var div_icon_505369306c0f392bae8231e090836589 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e1.Sumo Restaurant\u003c/div\u003e"});
+            marker_fb198b897f1f076b9d3ce14a3cfeea77.setIcon(div_icon_505369306c0f392bae8231e090836589);
         
     
-        var popup_b556dcc00deb4a45f5941a0050122cb3 = L.popup({"maxWidth": "100%"});
+        var popup_d4ca1fa07740f3f355a097556c2d085c = L.popup({"maxWidth": "100%"});
 
         
-            var html_2f07dc5085d9b378fc10ac0bd20a72ff = $(`<div id="html_2f07dc5085d9b378fc10ac0bd20a72ff" style="width: 100.0%; height: 100.0%;">Henrik Ibsens gate 90, 0255 Oslo</div>`)[0];
-            popup_b556dcc00deb4a45f5941a0050122cb3.setContent(html_2f07dc5085d9b378fc10ac0bd20a72ff);
+            var html_31ad80bec5fdb392d99790629c587a97 = $(`<div id="html_31ad80bec5fdb392d99790629c587a97" style="width: 100.0%; height: 100.0%;">Henrik Ibsens gate 90, 0255 Oslo</div>`)[0];
+            popup_d4ca1fa07740f3f355a097556c2d085c.setContent(html_31ad80bec5fdb392d99790629c587a97);
         
 
-        marker_a0686a0a61d418dafd95f0e9965a553d.bindPopup(popup_b556dcc00deb4a45f5941a0050122cb3)
+        marker_fb198b897f1f076b9d3ce14a3cfeea77.bindPopup(popup_d4ca1fa07740f3f355a097556c2d085c)
         ;
 
         
     
     
-            var marker_4151c32f7b64289d8eb48528cae6daa1 = L.marker(
+            var marker_61a70ba966a0250bf352cfee48fceecc = L.marker(
                 [59.91527248185749, 10.71710445123165],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_014f29ab995a36e6e602219c206d1aa9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e2.Champagneria\u003c/div\u003e"});
-            marker_4151c32f7b64289d8eb48528cae6daa1.setIcon(div_icon_014f29ab995a36e6e602219c206d1aa9);
+            var div_icon_4081cbe79ff388b75c0a28dd26cd8026 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e2.Champagneria\u003c/div\u003e"});
+            marker_61a70ba966a0250bf352cfee48fceecc.setIcon(div_icon_4081cbe79ff388b75c0a28dd26cd8026);
         
     
-        var popup_26108f091d5b173ff5e82ea17c0fb92b = L.popup({"maxWidth": "100%"});
+        var popup_127e890585dc1adf12428283d85c51a3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_de38765edcdb18a0ed4976bf582eaa48 = $(`<div id="html_de38765edcdb18a0ed4976bf582eaa48" style="width: 100.0%; height: 100.0%;">Frognerveien 2, 0257 Oslo</div>`)[0];
-            popup_26108f091d5b173ff5e82ea17c0fb92b.setContent(html_de38765edcdb18a0ed4976bf582eaa48);
+            var html_1488d4ca311eaca60dbc5ff7277d3515 = $(`<div id="html_1488d4ca311eaca60dbc5ff7277d3515" style="width: 100.0%; height: 100.0%;">Frognerveien 2, 0257 Oslo</div>`)[0];
+            popup_127e890585dc1adf12428283d85c51a3.setContent(html_1488d4ca311eaca60dbc5ff7277d3515);
         
 
-        marker_4151c32f7b64289d8eb48528cae6daa1.bindPopup(popup_26108f091d5b173ff5e82ea17c0fb92b)
+        marker_61a70ba966a0250bf352cfee48fceecc.bindPopup(popup_127e890585dc1adf12428283d85c51a3)
         ;
 
         
     
     
-            var marker_263cfa71b5b56c9eb8c6ca691929bccf = L.marker(
+            var marker_04cc671a9f14a3b4155664437e218cd2 = L.marker(
                 [59.91598776839145, 10.716144220416322],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_5fa51a477231d39b61a4cd5ffc696033 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e3.Fru Burum\u003c/div\u003e"});
-            marker_263cfa71b5b56c9eb8c6ca691929bccf.setIcon(div_icon_5fa51a477231d39b61a4cd5ffc696033);
+            var div_icon_5288eb61ad293213055c6d8ddc385055 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e3.Fru Burum\u003c/div\u003e"});
+            marker_04cc671a9f14a3b4155664437e218cd2.setIcon(div_icon_5288eb61ad293213055c6d8ddc385055);
         
     
-        var popup_f12d1e800ea3103e93df0b6e8f1e7a65 = L.popup({"maxWidth": "100%"});
+        var popup_4b07ca1275a2c473878f50d0a6c56c57 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f2a80da0c6bedf6f8957b70899ef2ffa = $(`<div id="html_f2a80da0c6bedf6f8957b70899ef2ffa" style="width: 100.0%; height: 100.0%;">Skovveien 3, 0257 Oslo</div>`)[0];
-            popup_f12d1e800ea3103e93df0b6e8f1e7a65.setContent(html_f2a80da0c6bedf6f8957b70899ef2ffa);
+            var html_806f20b282ba986acc38312cd88f739f = $(`<div id="html_806f20b282ba986acc38312cd88f739f" style="width: 100.0%; height: 100.0%;">Skovveien 3, 0257 Oslo</div>`)[0];
+            popup_4b07ca1275a2c473878f50d0a6c56c57.setContent(html_806f20b282ba986acc38312cd88f739f);
         
 
-        marker_263cfa71b5b56c9eb8c6ca691929bccf.bindPopup(popup_f12d1e800ea3103e93df0b6e8f1e7a65)
+        marker_04cc671a9f14a3b4155664437e218cd2.bindPopup(popup_4b07ca1275a2c473878f50d0a6c56c57)
         ;
 
         
     
     
-            var marker_b8fb7e01cf56b15f48fc9f5d33830ee5 = L.marker(
+            var marker_c1c6ebd9958ed3be2ccc2abd33966c3e = L.marker(
                 [59.916645064308504, 10.713408421737306],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_a749617be93165ce02e7c2aedcdebbd4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e10.Lille Andy\u0027s Pub\u003c/div\u003e"});
-            marker_b8fb7e01cf56b15f48fc9f5d33830ee5.setIcon(div_icon_a749617be93165ce02e7c2aedcdebbd4);
+            var div_icon_b863401d14424a6943429ca9a7db3661 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e10.Lille Andy\u0027s Pub\u003c/div\u003e"});
+            marker_c1c6ebd9958ed3be2ccc2abd33966c3e.setIcon(div_icon_b863401d14424a6943429ca9a7db3661);
         
     
-        var popup_dc7215affe5ae50a00145fe0941ccb43 = L.popup({"maxWidth": "100%"});
+        var popup_e5d03c8401effb1c5c670fc5b37a376c = L.popup({"maxWidth": "100%"});
 
         
-            var html_6688cc25844da001d2ba2a47f5e3b227 = $(`<div id="html_6688cc25844da001d2ba2a47f5e3b227" style="width: 100.0%; height: 100.0%;">Frognerveien 12B, 0263 Oslo</div>`)[0];
-            popup_dc7215affe5ae50a00145fe0941ccb43.setContent(html_6688cc25844da001d2ba2a47f5e3b227);
+            var html_84e66d7a1c7d4914e7176646d7f2dfc5 = $(`<div id="html_84e66d7a1c7d4914e7176646d7f2dfc5" style="width: 100.0%; height: 100.0%;">Frognerveien 12B, 0263 Oslo</div>`)[0];
+            popup_e5d03c8401effb1c5c670fc5b37a376c.setContent(html_84e66d7a1c7d4914e7176646d7f2dfc5);
         
 
-        marker_b8fb7e01cf56b15f48fc9f5d33830ee5.bindPopup(popup_dc7215affe5ae50a00145fe0941ccb43)
+        marker_c1c6ebd9958ed3be2ccc2abd33966c3e.bindPopup(popup_e5d03c8401effb1c5c670fc5b37a376c)
         ;
 
         
     
     
-            var marker_95d1c70571298f93295321c7897cd1ad = L.marker(
+            var marker_051a2aafe2936ed300e26e6328c0254a = L.marker(
                 [59.917972680478975, 10.71835422545415],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_6344aeab7b89782dcb30cec9fbcb17c2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e5.Victor\u0027s Vinbar\u003c/div\u003e"});
-            marker_95d1c70571298f93295321c7897cd1ad.setIcon(div_icon_6344aeab7b89782dcb30cec9fbcb17c2);
+            var div_icon_1a3cbb7b3d36605953ae1a6377e24717 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e5.Victor\u0027s Vinbar\u003c/div\u003e"});
+            marker_051a2aafe2936ed300e26e6328c0254a.setIcon(div_icon_1a3cbb7b3d36605953ae1a6377e24717);
         
     
-        var popup_963fb50e7143c8697c08cfb9f9096a10 = L.popup({"maxWidth": "100%"});
+        var popup_a92778715712273645dc983542671c85 = L.popup({"maxWidth": "100%"});
 
         
-            var html_70e8acab9b68fc7f1179ab35a26bcc26 = $(`<div id="html_70e8acab9b68fc7f1179ab35a26bcc26" style="width: 100.0%; height: 100.0%;">Skovveien 15, 0257 Oslo</div>`)[0];
-            popup_963fb50e7143c8697c08cfb9f9096a10.setContent(html_70e8acab9b68fc7f1179ab35a26bcc26);
+            var html_6ab426495f896da9bb5814e304bc6092 = $(`<div id="html_6ab426495f896da9bb5814e304bc6092" style="width: 100.0%; height: 100.0%;">Skovveien 15, 0257 Oslo</div>`)[0];
+            popup_a92778715712273645dc983542671c85.setContent(html_6ab426495f896da9bb5814e304bc6092);
         
 
-        marker_95d1c70571298f93295321c7897cd1ad.bindPopup(popup_963fb50e7143c8697c08cfb9f9096a10)
+        marker_051a2aafe2936ed300e26e6328c0254a.bindPopup(popup_a92778715712273645dc983542671c85)
         ;
 
         
     
     
-            var marker_e3f2c4fbb5838bec388c1273d98a93d3 = L.marker(
+            var marker_94f194eda02edc2ecb294a65177879c1 = L.marker(
                 [59.918622142469445, 10.710102890982766],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_c652a390b813beac6b31c27decc3532d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e7.Frogner Kino\u003c/div\u003e"});
-            marker_e3f2c4fbb5838bec388c1273d98a93d3.setIcon(div_icon_c652a390b813beac6b31c27decc3532d);
+            var div_icon_60a22e329162f3775277032d85ad2086 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e7.Frogner Kino\u003c/div\u003e"});
+            marker_94f194eda02edc2ecb294a65177879c1.setIcon(div_icon_60a22e329162f3775277032d85ad2086);
         
     
-        var popup_fc595b64501242074f8239d12e5f90f6 = L.popup({"maxWidth": "100%"});
+        var popup_f4c88f1d0b7871f0fa8a26a9537d5637 = L.popup({"maxWidth": "100%"});
 
         
-            var html_29b12f6f52afe1945936d663509c6c67 = $(`<div id="html_29b12f6f52afe1945936d663509c6c67" style="width: 100.0%; height: 100.0%;">Frognerveien 30, 0263 Oslo</div>`)[0];
-            popup_fc595b64501242074f8239d12e5f90f6.setContent(html_29b12f6f52afe1945936d663509c6c67);
+            var html_5d41a86677f5b7a77bd46023be6cba14 = $(`<div id="html_5d41a86677f5b7a77bd46023be6cba14" style="width: 100.0%; height: 100.0%;">Frognerveien 30, 0263 Oslo</div>`)[0];
+            popup_f4c88f1d0b7871f0fa8a26a9537d5637.setContent(html_5d41a86677f5b7a77bd46023be6cba14);
         
 
-        marker_e3f2c4fbb5838bec388c1273d98a93d3.bindPopup(popup_fc595b64501242074f8239d12e5f90f6)
+        marker_94f194eda02edc2ecb294a65177879c1.bindPopup(popup_f4c88f1d0b7871f0fa8a26a9537d5637)
         ;
 
         
     
     
-            var marker_3c7a77ff586a231ae6eb65af2bc5e47b = L.marker(
+            var marker_a5d42920953f4197d11647af89877a14 = L.marker(
                 [59.916860875031574, 10.714871341826488],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_ecae73f46b220d98290e7b649e9858a3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e11.Forrest \u0026 Brown\u003c/div\u003e"});
-            marker_3c7a77ff586a231ae6eb65af2bc5e47b.setIcon(div_icon_ecae73f46b220d98290e7b649e9858a3);
+            var div_icon_d1e22fe5eaadae1345ba88c1499c4154 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e11.Forrest \u0026 Brown\u003c/div\u003e"});
+            marker_a5d42920953f4197d11647af89877a14.setIcon(div_icon_d1e22fe5eaadae1345ba88c1499c4154);
         
     
-        var popup_9791a35f717afe074fc88613b490448f = L.popup({"maxWidth": "100%"});
+        var popup_8dcc6c0d00a5b606b901809f0e621df1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_850cccf85812117ce66f0890b9f6683f = $(`<div id="html_850cccf85812117ce66f0890b9f6683f" style="width: 100.0%; height: 100.0%;">Niels Juels gate 31, 0257 Oslo</div>`)[0];
-            popup_9791a35f717afe074fc88613b490448f.setContent(html_850cccf85812117ce66f0890b9f6683f);
+            var html_70872be1c15cf11ee3cd97e1c8585839 = $(`<div id="html_70872be1c15cf11ee3cd97e1c8585839" style="width: 100.0%; height: 100.0%;">Niels Juels gate 31, 0257 Oslo</div>`)[0];
+            popup_8dcc6c0d00a5b606b901809f0e621df1.setContent(html_70872be1c15cf11ee3cd97e1c8585839);
         
 
-        marker_3c7a77ff586a231ae6eb65af2bc5e47b.bindPopup(popup_9791a35f717afe074fc88613b490448f)
+        marker_a5d42920953f4197d11647af89877a14.bindPopup(popup_8dcc6c0d00a5b606b901809f0e621df1)
         ;
 
         
     
     
-            var marker_5bd590f70b96bd6b77225f844b94a756 = L.marker(
+            var marker_fbd4e6c1af5cfbee478268485d8eea3a = L.marker(
                 [59.91652744388927, 10.71668451517464],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_5f227aa3fc3c58d4f13c69abfe19fbce = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e4.Galleri Tiffani\u003c/div\u003e"});
-            marker_5bd590f70b96bd6b77225f844b94a756.setIcon(div_icon_5f227aa3fc3c58d4f13c69abfe19fbce);
+            var div_icon_32059808edcdd617076b8de84b377176 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e4.Galleri Tiffani\u003c/div\u003e"});
+            marker_fbd4e6c1af5cfbee478268485d8eea3a.setIcon(div_icon_32059808edcdd617076b8de84b377176);
         
     
-        var popup_9579ca395b7b8deb57c489a598faf751 = L.popup({"maxWidth": "100%"});
+        var popup_0e9c9820b4e26b7640f46f79d68f0435 = L.popup({"maxWidth": "100%"});
 
         
-            var html_85d13590fba9fb4b3509dc44bc27dd39 = $(`<div id="html_85d13590fba9fb4b3509dc44bc27dd39" style="width: 100.0%; height: 100.0%;">Behrens gate 2, 0257 Oslo</div>`)[0];
-            popup_9579ca395b7b8deb57c489a598faf751.setContent(html_85d13590fba9fb4b3509dc44bc27dd39);
+            var html_8ea2993c9d025ab8ee7abfb23bd4d009 = $(`<div id="html_8ea2993c9d025ab8ee7abfb23bd4d009" style="width: 100.0%; height: 100.0%;">Behrens gate 2, 0257 Oslo</div>`)[0];
+            popup_0e9c9820b4e26b7640f46f79d68f0435.setContent(html_8ea2993c9d025ab8ee7abfb23bd4d009);
         
 
-        marker_5bd590f70b96bd6b77225f844b94a756.bindPopup(popup_9579ca395b7b8deb57c489a598faf751)
+        marker_fbd4e6c1af5cfbee478268485d8eea3a.bindPopup(popup_0e9c9820b4e26b7640f46f79d68f0435)
         ;
 
         
     
     
-            var marker_1b02ff495991894451c7fc361b87a4f2 = L.marker(
+            var marker_e095e79af3b3abf642d019e810b9da7d = L.marker(
                 [59.91843519304288, 10.705339102800453],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_ce8198e60024943cab69f52d7b77daad = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e9.Enoteca\u003c/div\u003e"});
-            marker_1b02ff495991894451c7fc361b87a4f2.setIcon(div_icon_ce8198e60024943cab69f52d7b77daad);
+            var div_icon_e65fcf37ddef41f9539e5fe48c694f8f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e9.Enoteca\u003c/div\u003e"});
+            marker_e095e79af3b3abf642d019e810b9da7d.setIcon(div_icon_e65fcf37ddef41f9539e5fe48c694f8f);
         
     
-        var popup_b3ddfad59474e1d6e9a8ed4c71790344 = L.popup({"maxWidth": "100%"});
+        var popup_651fbbcb6ccea655348572e3b3e041ea = L.popup({"maxWidth": "100%"});
 
         
-            var html_014ddd347de2f0dee1d507732326c2ca = $(`<div id="html_014ddd347de2f0dee1d507732326c2ca" style="width: 100.0%; height: 100.0%;">Bygdøy allé 59, 0265 Oslo</div>`)[0];
-            popup_b3ddfad59474e1d6e9a8ed4c71790344.setContent(html_014ddd347de2f0dee1d507732326c2ca);
+            var html_3ac6a70037ae0f43f3d512c0128458bb = $(`<div id="html_3ac6a70037ae0f43f3d512c0128458bb" style="width: 100.0%; height: 100.0%;">Bygdøy allé 59, 0265 Oslo</div>`)[0];
+            popup_651fbbcb6ccea655348572e3b3e041ea.setContent(html_3ac6a70037ae0f43f3d512c0128458bb);
         
 
-        marker_1b02ff495991894451c7fc361b87a4f2.bindPopup(popup_b3ddfad59474e1d6e9a8ed4c71790344)
+        marker_e095e79af3b3abf642d019e810b9da7d.bindPopup(popup_651fbbcb6ccea655348572e3b3e041ea)
         ;
 
         
     
     
-            var marker_d57ee73b453a6d43416f5aa99cf84750 = L.marker(
+            var marker_e3eaa723d72df7db35229560cdc36b85 = L.marker(
                 [59.91902269489396, 10.705907731109399],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_bf18d1519fc39cbd260cc4d088700672 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e8.Elise Cafe\u003c/div\u003e"});
-            marker_d57ee73b453a6d43416f5aa99cf84750.setIcon(div_icon_bf18d1519fc39cbd260cc4d088700672);
+            var div_icon_fb439b98421e3efbb78877f26560a74a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e8.Elise Cafe\u003c/div\u003e"});
+            marker_e3eaa723d72df7db35229560cdc36b85.setIcon(div_icon_fb439b98421e3efbb78877f26560a74a);
         
     
-        var popup_73bfcb051145cf37d81a33be9719fa47 = L.popup({"maxWidth": "100%"});
+        var popup_e305ff8979a77c2bdd8f740c5b3be636 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9a76f138c3d280fd86fe587107ad8dc9 = $(`<div id="html_9a76f138c3d280fd86fe587107ad8dc9" style="width: 100.0%; height: 100.0%;">Elisenbergveien 22, 0265 Oslo</div>`)[0];
-            popup_73bfcb051145cf37d81a33be9719fa47.setContent(html_9a76f138c3d280fd86fe587107ad8dc9);
+            var html_e11c964cf78ffcf621cb79272e4c6dcc = $(`<div id="html_e11c964cf78ffcf621cb79272e4c6dcc" style="width: 100.0%; height: 100.0%;">Elisenbergveien 22, 0265 Oslo</div>`)[0];
+            popup_e305ff8979a77c2bdd8f740c5b3be636.setContent(html_e11c964cf78ffcf621cb79272e4c6dcc);
         
 
-        marker_d57ee73b453a6d43416f5aa99cf84750.bindPopup(popup_73bfcb051145cf37d81a33be9719fa47)
+        marker_e3eaa723d72df7db35229560cdc36b85.bindPopup(popup_e305ff8979a77c2bdd8f740c5b3be636)
         ;
 
         
     
     
-            var marker_4e34e180a62629d8b521a02bf81a249f = L.marker(
+            var marker_9fceff1a294f25010646057f56a846cd = L.marker(
                 [59.91755737421656, 10.711509462397009],
                 {}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var div_icon_dc940321260af8428df34776d623d6f5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e6.Gabels Vinbar\u003c/div\u003e"});
-            marker_4e34e180a62629d8b521a02bf81a249f.setIcon(div_icon_dc940321260af8428df34776d623d6f5);
+            var div_icon_8dfdbcfbf1c8656f67ce7d28b019e413 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12pt;font-family: helvetica;\n        color: purple\"\u003e6.Gabels Vinbar\u003c/div\u003e"});
+            marker_9fceff1a294f25010646057f56a846cd.setIcon(div_icon_8dfdbcfbf1c8656f67ce7d28b019e413);
         
     
-        var popup_9f466b9e553f0193d836a9f431b3710b = L.popup({"maxWidth": "100%"});
+        var popup_a4cfbb99cd6b046f157a531543950165 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b6f22c01d2aef7b2df94ab5d1785bf6b = $(`<div id="html_b6f22c01d2aef7b2df94ab5d1785bf6b" style="width: 100.0%; height: 100.0%;">Gabels gate 47, 0262 Oslo</div>`)[0];
-            popup_9f466b9e553f0193d836a9f431b3710b.setContent(html_b6f22c01d2aef7b2df94ab5d1785bf6b);
+            var html_8f366d5e72286efe0f50b74ae09b68ae = $(`<div id="html_8f366d5e72286efe0f50b74ae09b68ae" style="width: 100.0%; height: 100.0%;">Gabels gate 47, 0262 Oslo</div>`)[0];
+            popup_a4cfbb99cd6b046f157a531543950165.setContent(html_8f366d5e72286efe0f50b74ae09b68ae);
         
 
-        marker_4e34e180a62629d8b521a02bf81a249f.bindPopup(popup_9f466b9e553f0193d836a9f431b3710b)
+        marker_9fceff1a294f25010646057f56a846cd.bindPopup(popup_a4cfbb99cd6b046f157a531543950165)
         ;
 
         
     
     
-            var tile_layer_9870c8b688bb338797e9de39e125312b = L.tileLayer(
+            var tile_layer_5f046c3b7ff7f715b09d4035ffcf2dca = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var tile_layer_288371bc117b0c1170b61109e65a245d = L.tileLayer(
+            var tile_layer_71be36dedcae93ab1cf4be774597f6e2 = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
                 {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var tile_layer_6702df24edb3bda84627ed768963cf8a = L.tileLayer(
+            var tile_layer_ad7d10e6373c8787bee528435165da48 = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var tile_layer_17a8cb76a60220c3d85dfa5870ba065b = L.tileLayer(
+            var tile_layer_a300b3b3926a07066a457130b1c87ae7 = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var tile_layer_1c7f82d569e9c36d31e295fbd19c0dcd = L.tileLayer(
+            var tile_layer_5d853e208ed0ec0155487fee592e8e2a = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
         
     
-            var layer_control_196b22ad83b25172a2c876b4f4a4377c = {
+            var layer_control_73c0a357a5ff47356950c0b4162ac421 = {
                 base_layers : {
-                    "stamenterrain" : tile_layer_243b66417b748440799996be38b0cad4,
-                    "openstreetmap" : tile_layer_9870c8b688bb338797e9de39e125312b,
-                    "stamentoner" : tile_layer_288371bc117b0c1170b61109e65a245d,
-                    "stamenwatercolor" : tile_layer_6702df24edb3bda84627ed768963cf8a,
-                    "cartodbpositron" : tile_layer_17a8cb76a60220c3d85dfa5870ba065b,
-                    "cartodbdark_matter" : tile_layer_1c7f82d569e9c36d31e295fbd19c0dcd,
+                    "stamenterrain" : tile_layer_905b55a0b018570768a63bd4c5514bbe,
+                    "openstreetmap" : tile_layer_5f046c3b7ff7f715b09d4035ffcf2dca,
+                    "stamentoner" : tile_layer_71be36dedcae93ab1cf4be774597f6e2,
+                    "stamenwatercolor" : tile_layer_ad7d10e6373c8787bee528435165da48,
+                    "cartodbpositron" : tile_layer_a300b3b3926a07066a457130b1c87ae7,
+                    "cartodbdark_matter" : tile_layer_5d853e208ed0ec0155487fee592e8e2a,
                 },
                 overlays :  {
                 },
             };
             L.control.layers(
-                layer_control_196b22ad83b25172a2c876b4f4a4377c.base_layers,
-                layer_control_196b22ad83b25172a2c876b4f4a4377c.overlays,
+                layer_control_73c0a357a5ff47356950c0b4162ac421.base_layers,
+                layer_control_73c0a357a5ff47356950c0b4162ac421.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_e285be075a4f45bc02928b299c6dec3d);
-            tile_layer_9870c8b688bb338797e9de39e125312b.remove();
-            tile_layer_288371bc117b0c1170b61109e65a245d.remove();
-            tile_layer_6702df24edb3bda84627ed768963cf8a.remove();
-            tile_layer_17a8cb76a60220c3d85dfa5870ba065b.remove();
-            tile_layer_1c7f82d569e9c36d31e295fbd19c0dcd.remove();
+            ).addTo(map_e3d1ffa45b48c7048079233f52cc1b4d);
+            tile_layer_5f046c3b7ff7f715b09d4035ffcf2dca.remove();
+            tile_layer_71be36dedcae93ab1cf4be774597f6e2.remove();
+            tile_layer_ad7d10e6373c8787bee528435165da48.remove();
+            tile_layer_a300b3b3926a07066a457130b1c87ae7.remove();
+            tile_layer_5d853e208ed0ec0155487fee592e8e2a.remove();
         
 </script>
